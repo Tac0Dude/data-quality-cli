@@ -35,6 +35,9 @@ pip install -r requirements.txt
 python -m pytest
 ```
 ## Usage
+
+![Demo de l'outil](assets/demo.gif)
+
 ### Basic command
 ```bash
 python dq.py data/your_file.csv --suite expectations/your_rules.json
@@ -48,5 +51,8 @@ python dq.py [DATA_PATH] --suite [SUITE_PATH] --out [REPORT_PATH] --html
 --out, -o: (Optional) Custom path for the JSON report. Defaults to reports/result_YYYYMMDD_HHMMSS.json.
 
 --html: (Optional) Builds and opens the visual HTML Data Docs in your browser.
+
+![Demo de l'outil](assets/GE%20doc.png)
+
 ## Author
 https://github.com/Tac0Dude
