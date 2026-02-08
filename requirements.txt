@@ -1,2 +1,5 @@
 typer
 pandas
+great-expectations
+rich
+pytest
