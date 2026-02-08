@@ -1,0 +1,20 @@
+{
+  "expectation_suite_name": "drugs_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "kwargs": {
+        "column_list": ["age", "sex", "bp", "cholesterol", "Na_to_K", "drug"]
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": { "column": "drug" }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": { "column": "age", "min_value": 0, "max_value": 120 }
+    }
+  ],
+  "meta": { "great_expectations_version": "1.0.0" }
+}

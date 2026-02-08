@@ -18,3 +18,7 @@ reports/
 # Local data (datasets)
 *.csv
 *.parquet
+!tests/*.csv
+!examples/*.csv
+# Reports
+reports/

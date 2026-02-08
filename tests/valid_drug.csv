@@ -1,0 +1,6 @@
+age,sex,bp,cholesterol,Na_to_K,drug
+23,F,HIGH,HIGH,25.355,drugY
+47,M,LOW,HIGH,10.114,drugC
+28,F,NORMAL,HIGH,7.798,drugX
+61,F,LOW,HIGH,18.043,drugY
+22,F,NORMAL,HIGH,8.607,drugX
